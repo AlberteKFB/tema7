@@ -1,0 +1,183 @@
+body {
+  background-color: rgb(251, 245, 238);
+  margin: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.grid-container a {
+  color: antiquewhite;
+}
+.liste {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.liste div {
+  height: 90%;
+}
+.clickable-div {
+  display: block; /* Sørger for, at a-tag fylder hele sin container */
+}
+
+.menu {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  color: #820303;
+}
+.menu a:hover {
+  color: #d07e04; /* Ændrer baggrundsfarve ved hover */
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+h1 a {
+  color: #820303;
+  font-size: 40px;
+}
+h1 {
+  color: #820303;
+  font-size: 40px;
+}
+h2 {
+  color: #d07e04;
+  font-size: 35px;
+}
+
+h3,
+p {
+  color: antiquewhite;
+}
+p,
+dl {
+  font-size: 20px;
+}
+
+dt {
+  color: #820303;
+}
+
+dd {
+  color: #d07e04;
+}
+
+.box {
+  display: block;
+  color: inherit;
+  background-color: #820303;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pic,
+.pic2,
+.pic3 {
+  background-color: #820303;
+  margin: 15px;
+  padding: 20px;
+  display: inline-block;
+}
+.pic h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+.udsolgt {
+  opacity: 0.4;
+}
+.pic2,
+.pic3 {
+  position: relative;
+  /* background-color: #820303;
+  margin: 15px;
+  padding: 20px;
+  display: inline-block; */
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 225, 0);
+  color: #820303;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.udsolgt2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(158, 158, 158);
+  color: #f0f0f0;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.blur {
+  color: rgba(250, 235, 215, 0.783);
+}
+
+/*****/
+.produktinfo {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.str {
+  display: flex;
+  position: absolute;
+  gap: 20px;
+}
+
+.str p:hover {
+  color: #d07e04;
+}
+
+.info3 {
+  background-color: #820303;
+}
+
+.kurv {
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  background-color: antiquewhite;
+  color: #d07e04;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.kurv:hover {
+  transform: scale(1.2);
+}
+
+.info2 {
+  margin-left: 20px;
+}
+
+.info3 {
+  padding-left: 20px;
+}
+
+.info3 h1 {
+  color: #d07e04;
+}
+
+.midt {
+  display: flex;
+  justify-content: center;
+}
