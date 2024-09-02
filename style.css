@@ -12,14 +12,15 @@ body {
 .grid-container a {
   color: antiquewhite;
 }
-.liste {
+#product_list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.liste div {
+.boks {
   height: 90%;
 }
+
 .clickable-div {
   display: block; /* Sørger for, at a-tag fylder hele sin container */
 }

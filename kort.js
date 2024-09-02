@@ -15,7 +15,6 @@ function handleData(json) {
 
   document.querySelector("h1").textContent = json.productdisplayname;
   document.querySelector("p").textContent = json.brandbio;
-
   document.querySelector("img").src = imgURI;
   document.querySelector("img").alt = `Image of ${json.productdisplayname}`;
 }

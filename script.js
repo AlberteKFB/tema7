@@ -30,7 +30,10 @@ function handleData(json) {
 function showProduct(product) {
   const clone = productTemplate.cloneNode(true);
   clone.querySelector("h3").textContent = product.productdisplayname;
-  clone.querySelector("p").textContent = product.season;
+  clone.querySelector(".navn").textContent = product.brandname;
+  clone.querySelector(".price").textContent = product.price;
+  clone.querySelector("img").src= `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`
+  clone.querySelector("a").href = `produkt.html?id=${product.id}`;
   productList.appendChild(clone);
 
 
