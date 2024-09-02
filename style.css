@@ -15,10 +15,7 @@ body {
 #product_list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.boks {
-  height: 90%;
+  height: 100vh;
 }
 
 .clickable-div {
@@ -139,11 +136,11 @@ img {
   grid-template-columns: 2fr 2fr 1fr;
 }
 
-.str {
+/* .str {
   display: flex;
   position: absolute;
   gap: 20px;
-}
+} */
 
 .str p:hover {
   color: #d07e04;

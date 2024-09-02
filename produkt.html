@@ -17,42 +17,42 @@
     </header>
     <main>
       <h2>Produkt</h2>
-      <section class="purchaseBox">
-        <div class="produktinfo">
-          <div class="produktpic">
-            <img src="" alt="thsirt" />
+      <!-- <section class="purchaseBox"> -->
+      <div class="produktinfo">
+        <div class="produktpic">
+          <img src="" alt="thsirt" />
+        </div>
+        <div class="info2">
+          <h1>Produkt info</h1>
+          <dl>
+            <dt>Model navn:</dt>
+            <dd class="navn"></dd>
+            <dt>Mærke:</dt>
+            <dd class="brand"></dd>
+          </dl>
+        </div>
+        <div class="info3">
+          <h1></h1>
+          <p class="blur"></p>
+          <p>Størrelse:</p>
+          <div class="str">
+            <select id="size" name="size">
+              <option value="" disabled selected>Vælg størrelse</option>
+              <option value="small">s</option>
+              <option value="medium">m</option>
+              <option value="large">l</option>
+              <option value="xl">xl</option>
+            </select>
           </div>
-          <div class="info2">
-            <h1>Produkt info</h1>
-            <dl>
-              <dt>Model navn:</dt>
-              <dd></dd>
-              <dt>Farve:</dt>
-              <dd></dd>
-            </dl>
+          <div>
+            <button id="add_to">Tilføj til kurv</button>
           </div>
-          <div class="info3">
-            <h1></h1>
-            <p class="blur"></p>
-            <p>Størrelse:</p>
-            <div class="str">
-              <select id="size" name="size">
-                <option value="" disabled selected>Vælg størrelse</option>
-                <option value="small">s</option>
-                <option value="medium">m</option>
-                <option value="large">l</option>
-                <option value="xl">xl</option>
-              </select>
-            </div>
-            <div>
-              <button id="add_to">Tilføj til kurv</button>
-            </div>
-            <!-- <div class="midt">
+          <!-- <div class="midt">
               <div class="kurv">Tilføj til kurv</div>
             </div> -->
-          </div>
         </div>
-      </section>
+      </div>
+      <!-- </section> -->
     </main>
     <script src="produkt.js"></script>
   </body>
