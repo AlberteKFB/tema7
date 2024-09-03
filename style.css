@@ -95,16 +95,16 @@ img {
   text-align: center;
   color: antiquewhite;
 }
-.udsolgt {
+/* .udsolgt {
   opacity: 0.4;
-}
+} */
 /* .pic2,
 .pic3 {
   position: relative;
 
 } */
 
-.discount {
+/* .discount {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -112,8 +112,8 @@ img {
   color: #820303;
   padding: 5px 10px;
   font-weight: bold;
-}
-.udsolgt2 {
+} */
+/* .udsolgt2 {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -121,7 +121,7 @@ img {
   color: #f0f0f0;
   padding: 5px 10px;
   font-weight: bold;
-}
+} */
 
 .blur {
   color: rgba(250, 235, 215, 0.783);
@@ -209,4 +209,9 @@ article {
 
   object-fit: cover;
   border-radius: 5px;
+}
+
+.soldOut {
+  background-color: #820303;
+  opacity: 0.4;
 }

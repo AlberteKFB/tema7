@@ -34,6 +34,15 @@ function showProduct(product) {
   clone.querySelector(".price").textContent = product.price;
   clone.querySelector("img").src= `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`
   clone.querySelector("a").href = `produkt.html?id=${product.id}`;
+  if(product.soldout){
+    clone.querySelector("article").classList.add("soldOut"); 
+  }
+  if (product.discount){
+    clone.querySelector("article").classList.add("discount");
+    clone.querySelector(".discounted p span").textContent = Math.round(product.price - (product.price * product.discount) / 100);
+    clone.querySelector(".discounted p+p span").textContent = product.discount;
+  }
+ 
   productList.appendChild(clone);
 
 
