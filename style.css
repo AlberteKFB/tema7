@@ -1,6 +1,6 @@
 body {
   background-color: rgb(251, 245, 238);
-  margin: 15px;
+  margin: 20px;
 }
 
 .grid-container {
@@ -113,7 +113,7 @@ img {
   padding: 5px 10px;
   font-weight: bold;
 } */
-/* .udsolgt2 {
+/* .soldOut2 {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -214,4 +214,53 @@ article {
 .soldOut {
   background-color: #820303;
   opacity: 0.4;
+}
+
+.soldOut2 {
+  position: absolute;
+  top: 10%;
+  left: 17%;
+  background-color: #820303;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 10;
+  display: none; /* Gør kassen skjult som standard */
+}
+
+.boks {
+  position: relative;
+}
+
+button {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10%;
+  color: #820303;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none; /* Fjern punkttegnene */
+  padding: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: scale(1.05); /* Gør kassen større ved hover */
 }
